@@ -170,7 +170,7 @@ def main() :
     @st.cache(allow_output_mutation=True)
     def load_prediction(samples, idx_clt):
        
-        url="http://127.0.0.1:5000/info_row"
+        url="https://backdefaultprediction.herokuapp.com/info_row"
         headers={
         'Content-Type': 'application/json'}
         X=samples.drop('TARGET',axis=1).loc[idx_clt,:].to_dict()
