@@ -213,7 +213,7 @@ def main() :
      
     html_temp1 = """
      <div style="background-color: tomato; padding:10px; border-radius:10px">
-     <h1 style="color: white; text-align:center">Kanté & Gamassa Credit Bank </h1>
+     <h1 style="color: white; text-align:center">KG_Credit Bank </h1>
      <h2 style="color: white; text-align:center">Dashboard Scoring Credit/Projet_7/V_01</h2>
      <h3 style="color: black; text-align:center">Credit Risk Project implemented by Didier GAMASSA with the support of OpenClassrooms</h3>
      <h2 style="color: Blue; text-align:center">                  </h2>
