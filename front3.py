@@ -17,7 +17,6 @@ import plotly.express as px
 import requests
 from sklearn.preprocessing import StandardScaler
 from math import sqrt
-from sklearn.cluster import KMeans
 import warnings
 warnings.filterwarnings('ignore')
 pd.options.display.float_format = '{:,.2f}'.format
