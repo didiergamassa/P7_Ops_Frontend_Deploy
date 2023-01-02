@@ -55,7 +55,7 @@ description=pd.read_csv('appli_descriptif.csv').set_index('Variable')
 
 idx_clt = st.sidebar.selectbox("Applicants ID", index_samples)
 
-##############################################################################
+###############################################################################
 data_clt = samples[samples.index == int(idx_clt)]
 row_clt=samples.loc[idx_clt].to_list()
 ###############################################################################
@@ -121,7 +121,7 @@ df_ecart['Euclidean_distance']=(ecart_list)
 df_ecart=df_ecart.set_index('SK_ID_CURR')
 Similar_data=pd.concat([df_ecart,results], axis=1,join='inner')
 
-#######END OF SIMILARITY COMPUTING BY KNN_EUCLIDEAN DISTANCE METHOD###########
+#######END OF SIMILARITY COMPUTING BY KNN_EUCLIDEAN DISTANCE METHOD############
 ###############################################################################
 def main() : 
     
@@ -158,9 +158,9 @@ def main() :
         rev_moy = lst_infos[1]
         credits_moy = lst_infos[2]
         return nb_credits, rev_moy,credits_moy
- ############################################################################♥ 
-  ################### Loading general info##################################
-  ##########################################################################   
+##############################################################################♥ 
+#################### Loading general info######################################
+###############################################################################   
     nb_credits, rev_moy,credits_moy = load_infos_gen(data) 
     
 ###############################################################################
@@ -208,7 +208,7 @@ def main() :
     ###########################################################################
     ###########################################################################♦"
     ####################### 1 APPS DISPLAY TITLE############################### 
-    ############################################################################ 
+    ########################################################################### 
      
      
     html_temp1 = """
@@ -224,7 +224,7 @@ def main() :
         
     
     ###########################################################################
-    ################ 1 Display Customer ID from Sidebar
+    ################ 1 Display Customer ID from Sidebar########################
     ###########################################################################
    
     st.header("**Applicant ID selection display**")
@@ -236,15 +236,15 @@ def main() :
     if st.checkbox("Show Applicants information ?"):
         
    ############################################################################
-        ############## 2 Customer information display :
+        ############## 2 Customer information display : #######################
         ############## Customer Gender, Age, Family status, Children###########
    ############################################################################
           
         infos_client = identite_client(data,idx_clt)
         if infos_client["CODE_GENDER_M"].values[0]==1:
-           st.write("**Gender_Male: ", "yes")
+           st.write("**Gender_Male:", "yes")
         else:
-           st.write("**Gender : ", "no")
+           st.write("**Gender_Male:", "no")
         st.write("**Age_(years) : {:.0f} ".format(int(infos_client["Age"])))
         
         if infos_client["NAME_FAMILY_STATUS_Married"].values[0]==0:
@@ -299,7 +299,7 @@ def main() :
     else:
         st.markdown("<i>…</i>", unsafe_allow_html=True)
 ##########################PREDICTION  #########################################
-###############   3 Customer solvability display   #############################
+###############   3 Customer solvability display  #############################
 ###############################################################################    
     st.header("**Applicants file analysis**")
     prediction = load_prediction(data, idx_clt)
@@ -318,7 +318,7 @@ def main() :
     st.write(identite_client(data, idx_clt)) 
 
 ###############################################################################    
-################## 4 Feature importance / description ########################
+################## 4 Feature importance / description #########################
 ###############################################################################
     if st.checkbox("Applicant ID {:.0f} feature importance ?".format(idx_clt)):
         shap.initjs()
@@ -342,14 +342,20 @@ def main() :
     else:
          st.markdown("<i>…</i>", unsafe_allow_html=True)
 ###############################################################################
-###################Display the N Files similar to current File 
+###################Display the N Files similar to current File ################
 ###############################################################################       
     chk_voisins = st.checkbox("Show similar customer files ?")
 
     if chk_voisins:
          st.markdown("<u>List of the N(10 to 15) files closest to this applicant :</u>", unsafe_allow_html=True)
          st.dataframe(Similar_data)
-
+         st.markdown("<i>Row 0  = Current Applicant Data</i>", unsafe_allow_html=True)
+         st.markdown("<i>Target 1 = Customer with default</i>", unsafe_allow_html=True)
+    else:
+         st.markdown("<i>…</i>", unsafe_allow_html=True)
+         
+         
+    st.markdown('***')
 
 if __name__ == '__main__':
     main()
