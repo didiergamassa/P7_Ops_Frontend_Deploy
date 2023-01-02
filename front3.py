@@ -216,7 +216,7 @@ def main() :
      <h2 style="color: white; text-align:center">Dashboard Scoring Credit/Projet_7/V_01</h2>
      <h3 style="color: black; text-align:center">Credit Risk Project implemented by Didier GAMASSA</h3>
      <h4 style="color: black; text-align:center">IT_Project_Manager/Data_Scientist</h3>
-     <h5 style="color: black; text-align:center">Support provided by OpenClassrooms</h3>
+     <h5 style="color: black; text-align:center">Support provided by OpenClassrooms/GitHub/Heroku_Dev_Center</h3>
           <h2 style="color: Blue; text-align:center">                  </h2>
      </div>
      <p style="font-size: 20px; font-weight: bold; text-align:center">This Dashboard is a decision tool allowing to validate or not loans to applicants.</p>
