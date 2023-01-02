@@ -301,7 +301,7 @@ def main() :
     else:
         st.markdown("<i>…</i>", unsafe_allow_html=True)
 ##########################PREDICTION  #########################################
-###############   3 Customer solvability display  #############################
+###############   3 Applicant solvability display  #############################
 ###############################################################################    
     st.header("**Applicant file analysis**")
     prediction = load_prediction(data, idx_clt)
