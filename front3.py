@@ -344,13 +344,13 @@ def main() :
 ###############################################################################
 ###################Display the N Files similar to current File ################
 ###############################################################################       
-    chk_voisins = st.checkbox("Show similar customer files ?")
+    chk_voisins = st.checkbox("Show similar applicant data to current applicant data ?")
 
     if chk_voisins:
-         st.markdown("<u>List of the N(10 to 15) files closest to this applicant :</u>", unsafe_allow_html=True)
+         st.markdown("<u>List of the N(10 to 15) data closest to current applicant data :</u>", unsafe_allow_html=True)
          st.dataframe(Similar_data)
          st.markdown("<i>Ranking 0  = Current Applicant Data</i>", unsafe_allow_html=True)
-         st.markdown("<i>Target 1 = Customer with default</i>", unsafe_allow_html=True)
+         st.markdown("<i>Target 1 = Applicant with default</i>", unsafe_allow_html=True)
     else:
          st.markdown("<i>…</i>", unsafe_allow_html=True)
          
