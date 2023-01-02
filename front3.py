@@ -231,7 +231,7 @@ def main() :
     st.write("Applicant ID selection :",idx_clt)
     
     
-    st.header("**Applicants information display**")
+    st.header("**Applicant information display**")
     
     if st.checkbox("Show Applicants information ?"):
         
