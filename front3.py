@@ -264,10 +264,13 @@ def main() :
     
         
         st.subheader("*Income (USD)*")
-        st.write("**Income total : **{:.0f}".format(infos_client["AMT_INCOME_TOTAL"].values[0]))
-        st.write("**Credit amount : **{:.0f}".format(infos_client["AMT_CREDIT"].values[0]))
-        st.write("**Credit annuities : **{:.0f}".format(infos_client["BUREAU_AMT_ANNUITY"].values[0]))
-        st.write("**Amount of property for credit : **{:.0f}".format(infos_client["EXT_SOURCE_3"].values[0]))
+        st.write("**Income total per year : **{:.0f}".format(infos_client["AMT_INCOME_TOTAL"].values[0]))
+        st.write("**Credit amount per year : **{:.0f}".format(infos_client["AMT_CREDIT"].values[0]))
+        st.write("**Credit as % income per year: **{:.0f}".format(infos_client["Credit_as_percent_income"].values[0]))
+        if  infos_client["NAME_INCOME_TYPE_Working"].values[0]==1:
+            st.write("**Name income type working :","yes")
+        else:
+           st.write("**Name income type working :","no")
         
         #Income distribution plot
         data_income = load_income_population(data)
@@ -279,12 +282,11 @@ def main() :
         
         #Relationship Age / Income Total interactive plot 
         fig, ax = plt.subplots(figsize=(10, 10))
-        fig = px.scatter(samples, x='Age', y="AMT_INCOME_TOTAL", 
-                         size="AMT_INCOME_TOTAL", color='CODE_GENDER_M',
-                         hover_data=['NAME_FAMILY_STATUS_Married', 'CNT_CHILDREN','NAME_CONTRACT_TYPE_Revolvingloans'])
+        fig = px.scatter(samples, x='Age',y="AMT_INCOME_TOTAL",color='CODE_GENDER_M',
+                         hover_data=['AMT_INCOME_TOTAL','NAME_FAMILY_STATUS_Married','CNT_CHILDREN','NAME_EDUCATION_TYPE_Secondarysecondaryspecial'])
 
         fig.update_layout({'plot_bgcolor':'#f0f0f0'}, 
-                          title={'text':"Relationship Age / Income Total", 'x':0.5, 'xanchor': 'center'}, 
+                          title={'text':"Rela tionship Age / Income Total", 'x':0.5, 'xanchor': 'center'}, 
                           title_font=dict(size=20, family='Verdana'), legend=dict(y=1.1, orientation='h'))
     
     
@@ -292,7 +294,8 @@ def main() :
         fig.update_xaxes(showline=True, linewidth=2, linecolor='#f0f0f0', gridcolor='#cbcbcb',
                          title="Age", title_font=dict(size=18, family='Verdana'))
         fig.update_yaxes(showline=True, linewidth=2, linecolor='#f0f0f0', gridcolor='#cbcbcb',
-                         title="Income Total", title_font=dict(size=18, family='Verdana'))
+                         title="Income Total", title_font=dict(size=18, family='Verdana'),type="log")
+        fig.update_traces(marker={'size': 10})
     
         st.plotly_chart(fig)
     
