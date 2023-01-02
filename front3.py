@@ -59,11 +59,10 @@ idx_clt = st.sidebar.selectbox("Applicants ID", index_samples)
 data_clt = samples[samples.index == int(idx_clt)]
 row_clt=samples.loc[idx_clt].to_list()
 ###############################################################################
-#####SIMILARITY COMPUTING BY THE EUCLIDEAN DISTANCE METHOD####################♣
+#####SIMILARITY COMPUTING BY KNN EUCLIDEAN DISTANCE METHOD####################♣
 ###############################################################################
 object= StandardScaler()
  
-# Splitting the independent and dependent variables
 
 # standardization 
 dataset = object.fit_transform(samples) 
@@ -121,7 +120,7 @@ df_ecart['Euclidean_distance']=(ecart_list)
 df_ecart=df_ecart.set_index('SK_ID_CURR')
 Similar_data=pd.concat([df_ecart,results], axis=1,join='inner')
 
-#######END OF SIMILARITY COMPUTING BY KNN_EUCLIDEAN DISTANCE METHOD############
+#######END OF SIMILARITY COMPUTING BY KNN EUCLIDEAN DISTANCE METHOD############
 ###############################################################################
 def main() : 
     
@@ -224,7 +223,7 @@ def main() :
         
     
     ###########################################################################
-    ################ 1 Display Customer ID from Sidebar########################
+    ################ 1 Display Applicant ID from Sidebar########################
     ###########################################################################
    
     st.header("**Applicant ID selection display**")
@@ -236,8 +235,8 @@ def main() :
     if st.checkbox("Show Applicants information ?"):
         
    ############################################################################
-        ############## 2 Customer information display : #######################
-        ############## Customer Gender, Age, Family status, Children###########
+        ############## 2 Applicant information display : #######################
+        ############## Applicant Gender, Age, Family status, Children###########
    ############################################################################
           
         infos_client = identite_client(data,idx_clt)
@@ -304,7 +303,7 @@ def main() :
 ##########################PREDICTION  #########################################
 ###############   3 Customer solvability display  #############################
 ###############################################################################    
-    st.header("**Applicants file analysis**")
+    st.header("**Applicant file analysis**")
     prediction = load_prediction(data, idx_clt)
     st.write("The probability of default is {:.2f}%".format(round(prediction*100),2) )  
     
@@ -336,7 +335,7 @@ def main() :
         st.pyplot(fig)
 
  
-    if st.checkbox("Need help about feature description ?") :
+    if st.checkbox("Need help about Applicant feature description ?") :
            #data,description=load_data()
            list_features = description.index.to_list()
            feature = st.selectbox('Feature checklist…', list_features)
