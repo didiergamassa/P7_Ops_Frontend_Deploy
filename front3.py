@@ -349,7 +349,7 @@ def main() :
     if chk_voisins:
          st.markdown("<u>List of the N(10 to 15) files closest to this applicant :</u>", unsafe_allow_html=True)
          st.dataframe(Similar_data)
-         st.markdown("<i>Row 0  = Current Applicant Data</i>", unsafe_allow_html=True)
+         st.markdown("<i>Ranking 0  = Current Applicant Data</i>", unsafe_allow_html=True)
          st.markdown("<i>Target 1 = Customer with default</i>", unsafe_allow_html=True)
     else:
          st.markdown("<i>…</i>", unsafe_allow_html=True)
