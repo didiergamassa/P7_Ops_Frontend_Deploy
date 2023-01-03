@@ -38,7 +38,7 @@ C'est un spécialiste de la gestion des risques qui réalise des études économ
 
 Editeur:Didier GAMASSA/Chef de Projet Informatique_Infrastructure_Instrumentation Bioanalytique_Data-Scientist
 
-1000 lignes de code en python et 6 mois de travail .
+1000 lignes de code python et 6 mois de travail .
 
 Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
 
