@@ -24,7 +24,7 @@ Cas d'étude chez KG_Credit_Bank partenaire de Home_Credit: vous etes un Particu
 
 6️⃣ Une fois les précédentes étapes franchies, il te faut bien définir ton besoin_de_financement : identifie bien les matériels, équipements ou investissements pour lesquels tu veux solliciter un emprunt. Par exemple, si tu veux acheter une voiture,une moto,une maison , tu dois citer clairement les listes des objets de financement. Cette clarté dans le détail des coûts montre que tu cernes bien ton besoin.
 
-7️⃣Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Bank
+7️⃣Application Web de scoring-client de KG_Credit_Bank
 
 Une fois fois toutes les informations collectées ,l'intelligence artificielle va prendre le relais en compilant toutes les données selon un algorithme de scoring-client paramétré au gré des exigences de la banque.
 Transparence et crédibilité des informations fournies augmenteront la probabilité d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
