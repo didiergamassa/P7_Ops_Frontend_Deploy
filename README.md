@@ -1,9 +1,15 @@
 # P7_Ops_Frontend_Deploy
-Front Streamlit Interface deployement
+Front Streamlit Interface deployement/KG_Credit_Bank
 
-Ce projet met en lumière les processus d'analyse d'une demande de crédit à la consommation par par le Département Crédit Risk d'un organisme de crédit.
+Évaluation des risques-clients
+L’évaluation des risques-clients (anglais : credit scoring ou évaluation du crédit par cote) désigne aujourd'hui un ensemble d'outils financiers d’aide à la décision utilisés pour évaluer automatiquement (par un algorithme) la solvabilité d'un « tiers » ainsi que le risque de non-remboursement de prêts ou de traites d'assurance, de loyer, etc.
+Ce type d'évaluation est réalisée dans les cas suivants :
+  évaluation d'un client (gestion de l'exposition à un risque financier, créances douteuses par exemple) ;
+  référencement d'un nouveau fournisseur stratégique ;
+  contractualisation avec un partenaire (distributeur par exemple).
+  lutte contre le blanchiment d'argent
 
-Cas d'étude: vous etes un Particulier en quete d'un crédit à la consommation. 
+Cas d'étude chez KG_Credit_Bank: vous etes un Particulier en quete d'un crédit à la consommation. 
 
 1️⃣  Le fonctionnement de ton compte bancaire, petit soit-il, renseigne beaucoup sur tes qualités de bon gestionnaire.
 
@@ -11,7 +17,7 @@ Cas d'étude: vous etes un Particulier en quete d'un crédit à la consommation.
 
 3️⃣ N'hésite pas le cas échéant de vérifier ta situation financière auprès de la Banque de France qui centralise tous les fichiers des clients suspendus du réseau bancaire Français ou international.
 
-4️⃣ Avant de declencher ta demande de crédit, tâche de reunir tous les documents financiers en ta faveur et relatif à ton activité professionnel.(Bulletin de paye ,Facture de télephone , Facture electricité,Facture de gaz,Relevés bancaires, etc). Une banque est rassurée lorsqu'elle voit un peu de vécu concret dans ce que tu présente sur toutes les informations exigées :La gestion de ta petite trésorerie, le règlement de tes factures,ta situation famialiale,les délais de tes engagements.
+4️⃣ Avant de declencher ta demande de crédit, tâche de reunir tous les documents financiers en ta faveur et relatif à ton activité professionnel.(Quittance de loyer,Bulletin de paye ,Facture de télephone , Facture electricité,Facture de gaz,Relevés bancaires, etc). Une banque est rassurée lorsqu'elle voit un peu de vécu concret dans ce que tu présente sur toutes les informations exigées :La gestion de ta petite trésorerie, le règlement de tes factures,ta situation famialiale,les délais de tes engagements.
 
 5️⃣ N'hésite pas à collecter toutes  les données relatives à tes revenus. Ça te permettra de bien argumenter ton dossier.
 
@@ -19,13 +25,19 @@ Cas d'étude: vous etes un Particulier en quete d'un crédit à la consommation.
 
 7️⃣Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Bank
 
-Une fois fois toutes les informations collectées ,l'intelligence artificielle va compiler toutes les données selon un algorithme de décision paramétré au gré des exigences de la banque.
-Transparence et crédibilité des informations fournies augmenteront de 99% les chances d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
+Une fois fois toutes les informations collectées ,l'intelligence artificielle va prendre le relais en compilant toutes les données selon un algorithme de décision paramétré au gré des exigences de la banque.
+Transparence et crédibilité des informations fournies augmenteront la probabilité d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
 
-                      **********************************************************************************************************************
-
+                     
 Les enseignements du projet:Rôle et missions de l’actuaire dans un organisme d'assurance ou de crédit.
 
 L’actuaire est le métier de référence dans le domaine des statistiques appliquées.
 
 C'est un spécialiste de la gestion des risques qui réalise des études économiques, financières et statistiques pour évaluer les risques avant de concevoir , modifier et valider les différents prets bancaires ou contrats d’assurance .
+
+Editeur:Didier GAMASSA/Chef de Projet Informatique_Infrastructure_Instrumentation Bioanalytique_Data-Scientist
+1000 lignes de code en python et 6 mois de travail .
+
+Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les domaines d'activité".
+
+
