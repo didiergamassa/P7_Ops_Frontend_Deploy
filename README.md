@@ -15,7 +15,7 @@ Cas d'étude: vous etes un Particulier en quete d'un pret bancaire
 
 5️⃣ N'hésite pas à collecter toutes  les données relatives à tes revenus. Ça te permettra de bien argumenter ton dossier.
 
-6️⃣ Une fois les précédentes étapes franchies, il te faut bien définir ton besoin_de_financement : identifie bien les matériels, équipements ou investissements pour lesquels tu veux solliciter un emprunt. Par exemple, si tu veux acheter une voiture,une moto,une maison , tu dois citer clairement les listes des objets de financement . Cette clarté dans le détail des coûts montre que tu cernes bien ton besoin..
+6️⃣ Une fois les précédentes étapes franchies, il te faut bien définir ton besoin_de_financement : identifie bien les matériels, équipements ou investissements pour lesquels tu veux solliciter un emprunt. Par exemple, si tu veux acheter une voiture,une moto,une maison , tu dois citer clairement les listes des objets de financement. Cette clarté dans le détail des coûts montre que tu cernes bien ton besoin.
 
 
 Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Bank
@@ -23,7 +23,7 @@ Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Ba
 Une fois fois toutes les informations collectées ,l'intelligence artificielle va compiler toutes les données selon un algorithme de décision paramétré au gré des exigences de la banque.
 Transparence et crédibilité des informations fournies augmenteront de 99% les chances d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
 
-Les enseignements du projet:Rôle et missions de l’actuaire dans une campagnie dassurance ou de Banque
+Les enseignements du projet:Rôle et missions de l’actuaire dans un organisme d'assurance ou de crédit.
 
 L’actuaire est le métier de référence dans le domaine des statistiques appliquées.
 
