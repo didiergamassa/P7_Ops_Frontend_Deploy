@@ -37,8 +37,9 @@ L’actuaire est le métier de référence dans le domaine des statistiques appl
 C'est un spécialiste de la gestion des risques qui réalise des études économiques, financières et statistiques pour évaluer les risques avant de concevoir , modifier et valider les différents prets bancaires ou contrats d’assurance .
 
 Editeur:Didier GAMASSA/Chef de Projet Informatique_Infrastructure_Instrumentation Bioanalytique_Data-Scientist
+
 1000 lignes de code en python et 6 mois de travail .
 
-Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les domaines d'activité".
+              Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les domaines d'activité".
 
 
