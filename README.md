@@ -10,7 +10,7 @@ Ce type d'évaluation est réalisée dans les cas suivants :
   contractualisation avec un partenaire (distributeur par exemple).
   lutte contre le blanchiment d'argent
 
-Cas d'étude chez KG_Credit_Bank: vous etes un Particulier en quete d'un crédit à la consommation. 
+Cas d'étude chez KG_Credit_Bank partenaire de Home_Credit: vous etes un Particulier en quete d'un crédit à la consommation. 
 
 1️⃣  Le fonctionnement de ton compte bancaire, petit soit-il, renseigne beaucoup sur tes qualités de bon gestionnaire.
 
