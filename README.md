@@ -19,10 +19,12 @@ Cas d'étude: vous etes un Particulier en quete d'un pret bancaire
 
 
 Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Bank
-#Une fois fois toutes ces informations collectées ,l'intelligence artificielle va compiler toutes les données selon un algorithme de décision paramétré au gré des exigences du preteur par l'actuaire de KG_Credit_Bank.
-Transparence et crédibilité des informations fournies augmenteront de 99% tes chances d'obtenir un pret validé par l'application Credit Risk de KG_Credit_Bank.Par contre,les informations non crédibles seront automatiquement détectés et  la demande rejetée .
+
+Une fois fois toutes les informations collectées ,l'intelligence artificielle va compiler toutes les données selon un algorithme de décision paramétré au gré des exigences de la banque.
+Transparence et crédibilité des informations fournies augmenteront de 99% les chances d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
 
 Les enseignements du projet:Rôle et missions de l’actuaire dans une campagnie dassurance ou de Banque
 
 L’actuaire est le métier de référence dans le domaine des statistiques appliquées.
-C'est un spécialiste de la gestion des risques qui réalise des études économiques, financières et statistiques pour évaluer les risques avant de concevoir , modifier ou valider les différents prets bancaires ou  contrats d’assurance et de prévoyance.
+
+C'est un spécialiste de la gestion des risques qui réalise des études économiques, financières et statistiques pour évaluer les risques avant de concevoir , modifier et valider les différents prets bancaires ou contrats d’assurance .
