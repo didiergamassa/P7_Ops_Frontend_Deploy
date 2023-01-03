@@ -1,13 +1,13 @@
 # P7_Ops_Frontend_Deploy
 Front Streamlit Interface deployement
 
-Ce projet met en lumière les processus d'analyse d'une demande de pret bancaire par par le Département Crédit Risk d'une Banque.
+Ce projet met en lumière les processus d'analyse d'une demande de crédit à la consommation par par le Département Crédit Risk d'un organisme de crédit.
 
-Cas d'étude: vous etes un Particulier en quete d'un pret bancaire 
+Cas d'étude: vous etes un Particulier en quete d'un crédit à la consommation. 
 
 1️⃣  Le fonctionnement de ton compte bancaire, petit soit-il, renseigne beaucoup sur tes qualités de bon gestionnaire.
 
-2️⃣ Avant de demander ou poser une demande de crédit,régularise si possible ta situation financière auprès de tous les organismes de prets.
+2️⃣ Avant de demander ou poser une demande de crédit,régularise si possible ta situation financière auprès de tous les organismes de crédit.
 
 3️⃣ N'hésite pas le cas échéant de vérifier ta situation financière auprès de la Banque de France qui centralise tous les fichiers des clients suspendus du réseau bancaire Français ou international.
 
@@ -17,11 +17,12 @@ Cas d'étude: vous etes un Particulier en quete d'un pret bancaire
 
 6️⃣ Une fois les précédentes étapes franchies, il te faut bien définir ton besoin_de_financement : identifie bien les matériels, équipements ou investissements pour lesquels tu veux solliciter un emprunt. Par exemple, si tu veux acheter une voiture,une moto,une maison , tu dois citer clairement les listes des objets de financement. Cette clarté dans le détail des coûts montre que tu cernes bien ton besoin.
 
-
-Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Bank
+7️⃣Application Web de validation ou d'invalidation de pret bancaire de KG_Credit_Bank
 
 Une fois fois toutes les informations collectées ,l'intelligence artificielle va compiler toutes les données selon un algorithme de décision paramétré au gré des exigences de la banque.
 Transparence et crédibilité des informations fournies augmenteront de 99% les chances d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
+
+                      **********************************************************************************************************************
 
 Les enseignements du projet:Rôle et missions de l’actuaire dans un organisme d'assurance ou de crédit.
 
