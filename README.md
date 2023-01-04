@@ -24,7 +24,7 @@ Cas d'étude chez KG_Credit_Bank partenaire de Home_Credit: vous etes un Particu
 
 7️⃣ Web Application_Scoring-client de KG_Credit_Bank
 
-Une fois fois toutes les informations collectées ,l'intelligence artificielle va prendre le relais en agregeant toutes les données pertinentes selon un algorithme de scoring-client paramétré au gré des exigences de la banque.90 données pertinentes selectionnées dans l'algorithme
+Une fois fois toutes les informations collectées ,l'intelligence artificielle va prendre le relais en agregeant toutes les données pertinentes selon un algorithme de scoring-client paramétré au gré des exigences de la banque.Au final,90 données pertinentes selectionnées dans l'algorithme
 Transparence et crédibilité des informations fournies augmenteront la probabilité d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
 
                      
