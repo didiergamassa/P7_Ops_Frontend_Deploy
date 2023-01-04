@@ -24,7 +24,7 @@ Cas d'étude chez KG_Credit_Bank partenaire de Home_Credit: vous etes un Particu
 
 7️⃣ Web Application_Scoring-client de KG_Credit_Bank
 
-Une fois fois toutes les informations collectées ,l'intelligence artificielle va prendre le relais en agregeant toutes les données pertinentes selon un algorithme de scoring-client paramétré au gré des exigences de la banque.Au final,90 données pertinentes selectionnées dans l'algorithme
+Une fois fois toutes les informations collectées ,l'intelligence artificielle va prendre le relais en agregeant toutes les données pertinentes selon un algorithme de scoring-client paramétré au gré des exigences de la banque.Au final,90 données pertinentes selectionnées dans l'algorithme.
 Transparence et crédibilité des informations fournies augmenteront la probabilité d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
 
                      
@@ -40,6 +40,6 @@ C'est un spécialiste de la gestion des risques qui réalise des études économ
 
 ##### Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
 ##### De l'Ingenierie electrique chez Thermo Fisher Scientic et Perkin_Elmer  à la Finance , Didier GAMASSA y est à quelques pas en 2023 par la mise en oeuvre de l'open-projet KG_Bank_Credit sur linkedin!!
-##### Data Science(Intelligence Artificielle)+ Réseau linkedin (Intelligence Collective)=Projets inédits.
+# Data Science(Intelligence Artificielle)+ Réseau linkedin (Intelligence Collective)=Projets inédits.
 
 
