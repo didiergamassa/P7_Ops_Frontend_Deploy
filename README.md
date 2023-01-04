@@ -37,6 +37,6 @@ C'est un spécialiste de la gestion des risques qui réalise des études économ
 
 1000 lignes de code python et 6 mois de travail .
 
-### Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
+##### Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
 
 
