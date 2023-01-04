@@ -1,4 +1,4 @@
-# Évaluation des risques-clients
+ # Évaluation des risques-clients
 [Lien Dashboard_Scoring-client de KG_Credit_Bank](https://kgcreditriskprediction.herokuapp.com/)
 
 L’évaluation des risques-clients (anglais : credit scoring ou évaluation du crédit par cote) désigne aujourd'hui un ensemble d'outils financiers d’aide à la décision utilisés pour évaluer automatiquement (par un algorithme) la solvabilité d'un « tiers » ainsi que le risque de non-remboursement de prêts ou de traites d'assurance, de loyer, etc.
@@ -39,6 +39,7 @@ C'est un spécialiste de la gestion des risques qui réalise des études économ
 1000 lignes de code python et 6 mois de travail .
 
 ##### Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
-##### De l'Ingenierie electrique chez Thermo Fisher Scientic   à la Finance , Didier GAMASSA y est désormais en 2023 à quelques pas par la mise en oeuvre de l'open- projet KG_Bank_Credit!!
+##### De l'Ingenierie electrique chez Thermo Fisher Scientic et Perkin_Elmer  à la Finance , Didier GAMASSA y est à quelques pas en 2023 par la mise en oeuvre de l'open-projet KG_Bank_Credit sur linkedin!!
+##### Data Science(Intelligence Artificielle)+ Réseau linkedin (Intelligence Collective)=Projets inédits.
 
 
