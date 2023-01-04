@@ -1,4 +1,5 @@
 # Évaluation des risques-clients
+[lien](https://kgcreditriskprediction.herokuapp.com/)
 
 L’évaluation des risques-clients (anglais : credit scoring ou évaluation du crédit par cote) désigne aujourd'hui un ensemble d'outils financiers d’aide à la décision utilisés pour évaluer automatiquement (par un algorithme) la solvabilité d'un « tiers » ainsi que le risque de non-remboursement de prêts ou de traites d'assurance, de loyer, etc.
 Ce type d'évaluation est réalisée dans les cas suivants :
