@@ -37,5 +37,5 @@ C'est un spécialiste de la gestion des risques qui réalise des études économ
 ##### Editeur:Didier GAMASSA/Stagiaire en parcours Data-Scientist chez OpenClassrooms
 
 ##### Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
-##### De l'Ingenierie electrique chez Thermo Fisher Scientic et Perkin_Elmer  à la Finance , Didier GAMASSA y est à quelques pas en 2023 par l'étude et mise en oeuvre d'une Web_Appli Scoring client avec le support d'Openclassrooms.
+##### De l'Ingenierie electrique chez Thermo Fisher Scientic et Perkin_Elmer  à la Finance , des nouvelles compétences développées par Didier GAMASSA  par l'étude et mise en oeuvre d'une Web_Appli Scoring client avec le support d'Openclassrooms.
 
