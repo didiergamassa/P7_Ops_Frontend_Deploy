@@ -36,10 +36,6 @@ C'est un spécialiste de la gestion des risques qui réalise des études économ
 
 ##### Editeur:Didier GAMASSA/Chef de Projet Informatique_Infrastructure_Instrumentation Bioanalytique_Data-Scientist
 
-1000 lignes de code python et 6 mois de travail .
-
 ##### Dhaval Patel, expert indien en science des données, a déclaré que : "La science des données est transversale à tous les secteurs d'activité".
-##### De l'Ingenierie electrique chez Thermo Fisher Scientic et Perkin_Elmer  à la Finance , Didier GAMASSA y est à quelques pas en 2023 par la mise en oeuvre de l'open-projet KG_Bank_Credit sur linkedin!!
-### Data Science(Intelligence Artificielle)+ Réseau linkedin (Intelligence Collective)=Projets inédits.
-
+##### De l'Ingenierie electrique chez Thermo Fisher Scientic et Perkin_Elmer  à la Finance , Didier GAMASSA y est à quelques pas en 2023 par l'étude et mise en oeuvre d'une Web_Appli Scoring client avec le support d'Openclassrooms.
 
