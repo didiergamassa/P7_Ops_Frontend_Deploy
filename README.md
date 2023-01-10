@@ -28,7 +28,7 @@ Une fois fois toutes les informations collectées ,l'intelligence artificielle v
 Transparence et crédibilité des informations fournies augmenteront la probabilité d'obtenir un pret validé .Par contre,les informations non crédibles seront automatiquement détectés et la demande rejetée .
 
                      
-## Les enseignements du projet:Rôle et missions de l’actuaire dans un organisme d'assurance ou de crédit.
+## Les enseignements Métier du projet:Rôle et missions de l’actuaire dans un organisme d'assurance ou de crédit.
 
 L’actuaire est le métier de référence dans le domaine des statistiques appliquées.
 
