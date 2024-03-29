@@ -7,7 +7,7 @@ verify_ssl=true
 
 [packages]
 
-gunicorn="*"
+gunicorn==20.1.0
 
 
 [requires]
